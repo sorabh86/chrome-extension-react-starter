@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "webpack --watch --progress --config webpack.dev.js",
-    "build": "webpack --watch --progress --config webpack.prod.js"
+    "dev": "webpack --progress --config webpack.dev.js",
+    "build": "webpack --progress --config webpack.prod.js"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.219",
