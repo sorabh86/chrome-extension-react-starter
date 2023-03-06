@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name":"Chrome Extension Starter",
+	"author":"sorabh86 <ssorabh.ssharma@hotmail.com>",
+	"homepage_url":"http://sorabh86.github.io",
+	"description": "Starter Project for Chrome Extension using React, Webpack & TypeScript",
+	"version": "1.0.0",
+
+	"icons": {
+		"16":"icon.png",
+		"48":"icon.png",
+		"128":"icon.png"
+	},
+
+	"action": {
+		"default_popup":"popup.html",
+		"default_title":"Chrome Extension Starter",
+		"default_icon":"icon.png"
+	},
+	"options_page": "options.html"
+}
