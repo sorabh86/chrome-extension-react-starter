@@ -1,0 +1,9 @@
+{
+	"manifest_version": 3,
+	"name":"Chrome Extension Starter",
+	"description": "Starter Project for Chrome Extension using React, Webpack & TypeScript",
+	"version": "1.0.0",
+
+	"author":"sorabh86 <ssorabh.ssharma@hotmail.com>",
+	"home_url":"http://sorabh86.github.io"
+}
