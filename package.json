@@ -1,0 +1,24 @@
+{
+  "name": "chrome-extension-react-starter",
+  "version": "1.0.0",
+  "description": "Starter project for chrome extension with typscript react",
+  "main": "index.js",
+  "repository": "https://github.com/sorabh86/chrome-extension-react-starter",
+  "author": "sorabh86",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack --watch --progress --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
