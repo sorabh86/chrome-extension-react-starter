@@ -12,8 +12,6 @@ const generateHtmlPage = (chunks) => {
 }
 
 module.exports = {
-	mode:'production',
-	devtool:'cheap-module-source-map', // removed the eval output
 	entry:{
 		popup: path.resolve('src/popup/popup.tsx'),
 		options: path.resolve('src/options/options.tsx'),
